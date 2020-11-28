@@ -1,26 +1,25 @@
 # Testing System for Unmanned Aerial Vehicles
-This project aimed to test rpm, force, torque, watt, and voltage of the propellers at the same time and print the results in graphs. In this project, I have used C language with Arduino IDE to maintain sustainable sensor values and optimize the calculated results. This project has been awarded by the Faculty of Mechanical Engineering at ITU as Best Senior Design Project. I have developed software for the testing system.
+This project aimed to test rpm, force, torque, watt, and voltage of the propellers.
+
+In this project, I have used C language with Arduino IDE to maintain sustainable sensor values and optimize the calculated results. This project has been awarded by the Faculty of Mechanical Engineering at ITU as Best Senior Design Project. I have developed software for the testing system in `main.ino`
 
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
+- [Requirements](#requirements)
 
 ## Installation
 
 Download Arduino IDE,
+Check your library to make sure you have `<LCD5110_Basic.h>` and `<HX711.h>` libraries. If not, upload them to your library.
 
+## Requirements
 
-## Usage
+You will need:
 
-Replace the contents of `README.md` with your project's:
+- Arduino Uno
+- HX711 Load Cell Amplifier Board (2x) pins (5,6) and (3,4)
+- LCD5110
+- CNY70 or TCRT5000 (pin 0)
 
-- Name
-- Description
-- Installation instructions
-- Usage instructions
-- Support instructions
-- Contributing instructions
-- Licence
-
-Feel free to remove any sections that aren't applicable to your project.
+Feel free to reach out for further details.
